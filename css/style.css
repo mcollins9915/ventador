@@ -1,0 +1,236 @@
+
+
+
+  /* general rules */
+  
+  :root {
+      --skinnyTopBg: #f5f4f2;
+      --primaryColor: #14becb;
+      --shoppingItems: #414949;
+      --logoFont: font-family: 'Roboto Slab', serif; 
+      --myAccount: #d6d6d6;
+  }
+  
+  
+  
+  body {
+      margin: 0;
+      padding: 0;
+  }
+
+  /* close gen rules */
+
+/* header rules */
+
+.skinny-top{
+    background-color: var(--skinnyTopBg);
+}
+
+.skinny-top ul {
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+.skinny-top li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.skinny-top a {
+    color: var(--primaryColor);
+    text-decoration: none;
+}
+
+.skinny-top a:hover{
+    color: grey;
+}
+
+.logoRow span {
+    background-color: var(--primaryColor);
+}
+
+.logoRow button {
+    background-color: var(--buttonColor);
+    border-radius: 0%;
+    color: grey;
+}
+.logoRow button:hover{
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+header nav ul{
+    text-decoration: none;
+}
+
+.mainNav li{
+    display: inline;
+    font-weight: bolder;
+    color: grey;
+}
+
+.header input {
+    border: 0.5px solid grey;
+    font-style: italic;
+    border-radius: 0px;
+    font-size: 16px;
+}
+
+.searchbutton {
+    background-color: grey;
+    color: darkslategray;
+    border: none;
+}
+
+.latest h2{
+    border-left: 3px solid var(--primaryColor);
+    font-family: 'Roboto Slab';
+    font-size: 42px;
+    color: darkslategray;
+}
+
+.latest {
+    margin-top: 50px;
+}
+
+hr {
+    width: 888px;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+.latest button {
+    background-color: var(--skinnyTopBg);
+    color: grey;
+    font-weight: bolder;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.discount p {
+    color: gray;
+    margin-left: 8px;
+}
+
+.rectTag, .circleTag {
+    background-color: var(--primaryColor);
+}
+
+.rectTag{
+    width: 50px;
+    color: white;
+    font-size: 18px;
+
+}
+
+.circleTag {
+    width: 75px;
+    color: white;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 25px;
+    margin-left: 115px;
+}
+
+.itemName {
+    color: darkslategray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.shoppingItems button,
+.footer button {
+    background-color: var(--shoppingItems);
+    color: white;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.latestNews{
+    background-color: var(--myAccount);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkslategray;
+}
+
+.footer input{
+    color: darkslategray;
+    border: 2px solid yellow;
+    background-color: transparent;
+    padding: 5px;
+    font-weight: lighter;
+}
+
+.latestNews {
+    padding: 20px;
+}
+
+.mainFooter {
+    background-color: #414949;
+    padding-top: 45px;
+}
+
+.footer{
+    background-color: #414949;
+}
+.footer ul {
+    list-style-type: square;
+    text-decoration: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer h4 {
+    text-transform: uppercase;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 22px;
+    padding-bottom: 75px;
+}
+
+.footer li {
+    text-transform: capitalize;
+    line-height: 2;
+}
+
+.footer p{
+    color: white;
+}
+
+.footer img{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+
+}
+
+.colophon ul {
+    list-style-type: none;
+}
+
+.colophon li {
+    display: inline;
+    background-color: #414949;
+    border-radius: 10%;
+    padding: 5px;
+    margin: 3px;
+    border-top: 1px solid  black;
+}
+
+.brandLogo {
+    padding-bottom: 75px;
+    padding-top: 30px;
+}
+
+.welcome {
+    color: grey;
+}
+
+.welcome a{
+    color: var(--primaryColor);
+    text-decoration: none;
+    padding-top: 50px;
+}
